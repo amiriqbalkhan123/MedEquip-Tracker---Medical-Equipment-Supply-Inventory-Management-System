@@ -1,0 +1,74 @@
+
+
+
+
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Sphygmomanometer', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =1), 'UL', '2021', 12000, 13000, 'Accurate blood pressure device');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Digital Thermometer', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =2), 'MediTech', 'DT-100', 500, 700, 'Fast reading thermometer');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Stethoscope', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =3), 'HealthPro', 'ST-200', 1500, 2000, 'High-quality auscultation');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Wheelchair', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =4), 'MobilityCo', 'WC-500', 8000, 10000, 'Comfortable manual wheelchair');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Oximeter', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =5), 'PulseTech', 'OX-50', 1200, 1500, 'Measures blood oxygen saturation');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'IV Stand', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =6), 'MedEquip', 'IVS-10', 3000, 4000, 'Stainless steel IV stand');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Nebulizer', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =7), 'Respira', 'NEB-100', 2500, 3000, 'Portable respiratory device');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Blood Glucose Meter', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =8), 'GlucoCheck', 'BG-75', 900, 1200, 'Accurate glucose readings');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Surgical Scalpel', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =9), 'SurgiSharp', 'SC-10', 300, 500, 'Sharp sterile scalpel');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Medical Gauze', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =10), 'HealthWrap', 'GZ-50', 200, 350, 'Sterile gauze pads');
+
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Pulse Oximeter', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =11), 'PulseTech', 'OX-200', 1300, 1600, 'Digital pulse measurement');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Surgical Gloves', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =12), 'SafeHands', 'GL-100', 50, 100, 'Sterile examination gloves');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Face Mask', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =13), 'MaskPro', 'FM-20', 20, 50, 'Medical protective mask');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Hospital Bed', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =14), 'ComfortCare', 'HB-300', 20000, 25000, 'Adjustable patient bed');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Surgical Light', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =15), 'BrightMed', 'SL-100', 15000, 18000, 'LED operating room light');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'ECG Machine', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =16), 'CardioTech', 'ECG-500', 45000, 50000, '12-lead electrocardiogram');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Defibrillator', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =17), 'HeartSafe', 'DF-300', 60000, 70000, 'Emergency cardiac device');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Infusion Pump', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =18), 'InfuseMed', 'IP-50', 12000, 15000, 'Precise IV fluid delivery');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Medical Thermometer', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =19), 'TempCheck', 'MT-100', 400, 600, 'Digital patient thermometer');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Surgical Tray', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =20), 'SteriTray', 'TR-30', 1500, 2000, 'Stainless steel tray for surgery');
+
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Oxygen Cylinder', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =21), 'OxyLife', 'OXC-10', 50000, 55000, 'Medical oxygen cylinder');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'IV Cannula', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =22), 'MedFlow', 'IVC-25', 100, 150, 'Peripheral IV cannula');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Suture Kit', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =23), 'Suturo', 'SK-15', 800, 1200, 'Surgical suturing kit');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Medical Refrigerator', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =24), 'CoolMed', 'MR-100', 30000, 35000, 'Refrigerator for medications');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Hospital Trolley', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =25), 'TrollyPro', 'HT-20', 5000, 7000, 'Patient transport trolley');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Portable Ultrasound', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =26), 'SonoTech', 'US-50', 45000, 50000, 'Compact ultrasound machine');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Nebulizer Mask', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =27), 'Respira', 'NBM-10', 250, 400, 'Mask for nebulization therapy');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Blood Pressure Monitor', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =28), 'UL', 'BP-200', 2000, 2500, 'Electronic BP monitor');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Surgical Drapes', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =29), 'SteriCare', 'SD-50', 400, 600, 'Sterile operating drapes');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Medical Oxygen Mask', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =30), 'OxyLife', 'OM-10', 300, 450, 'Mask for oxygen delivery');
+
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Infusion Stand', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =31), 'MedEquip', 'IS-10', 2500, 3500, 'IV fluid stand for hospital use');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Surgical Scissors', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =32), 'SurgiSharp', 'SS-10', 500, 700, 'Sterile scissors for surgery');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'First Aid Kit', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =33), 'SafeMed', 'FAK-20', 1200, 1500, 'Emergency first aid kit');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Thermometer Gun', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =34), 'TempCheck', 'TG-50', 700, 900, 'Infrared forehead thermometer');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Suction Machine', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =35), 'SuctoMed', 'SM-100', 10000, 12000, 'Removes fluids in surgery');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'ECG Electrodes', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =36), 'CardioTech', 'ECG-EL', 200, 300, 'Adhesive electrodes for ECG');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Stretchers', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =37), 'TrollyPro', 'ST-50', 8000, 10000, 'Emergency patient stretcher');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Medical Gloves', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =38), 'SafeHands', 'GL-200', 50, 100, 'Disposable latex gloves');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Surgical Needle Holder', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =39), 'SurgiSharp', 'NH-10', 400, 600, 'Holds surgical needles');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Hospital Curtains', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =40), 'MediCurt', 'HC-50', 1500, 2000, 'Privacy curtains for wards');
+
+
+
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Digital Blood Pressure Monitor', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =1), 'MediTech', 'BP-300', 2500, 3000, 'Automatic blood pressure monitor');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Portable ECG Machine', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =2), 'CardioPro', 'ECG-P50', 40000, 45000, 'Compact ECG device for clinics');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Thermometer Strip', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =3), 'TempCare', 'TS-10', 50, 80, 'Disposable forehead thermometer strips');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Oxygen Concentrator', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =4), 'OxyLife', 'OC-200', 55000, 60000, 'Home and hospital oxygen concentrator');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Medical Suction Pump', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =5), 'SuctoMed', 'SP-100', 12000, 15000, 'Portable suction device for fluids');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Hospital Monitor', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =6), 'HealthTech', 'HM-500', 30000, 35000, 'Patient vital signs monitor');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Nebulizer Kit', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =7), 'Respira', 'NBK-50', 2000, 2500, 'Complete nebulizer therapy kit');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Sterile Scalpel', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =8), 'SurgiSharp', 'SC-50', 300, 450, 'High-quality surgical scalpel');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Medical Stretcher', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =9), 'TrollyPro', 'ST-100', 9000, 12000, 'Durable patient stretcher');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Infusion Pump', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =10), 'InfuseMed', 'IP-200', 14000, 18000, 'Precise IV infusion pump');
+
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Digital Thermometer', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =11), 'TempCheck', 'DT-200', 600, 800, 'Quick and accurate temperature readings');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Medical Face Shield', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =12), 'SafeMed', 'FS-10', 80, 150, 'Protective face shield for staff');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Surgical Drapes', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =13), 'SteriCare', 'SD-100', 500, 800, 'Sterile drapes for operations');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Hospital Bed', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =14), 'ComfortCare', 'HB-500', 22000, 27000, 'Adjustable hospital bed');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'ECG Electrodes', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =15), 'CardioTech', 'EL-50', 150, 250, 'Adhesive electrodes for ECG monitoring');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Wheelchair', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =16), 'MobilityCo', 'WC-700', 9000, 11000, 'Comfortable wheelchair for patients');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Medical Oxygen Mask', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =17), 'OxyLife', 'OM-50', 350, 500, 'Oxygen mask for therapy');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Surgical Scissors', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =18), 'SurgiSharp', 'SS-50', 500, 750, 'Sterile scissors for surgery');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'IV Cannula', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =19), 'MedFlow', 'IVC-50', 120, 200, 'Peripheral IV cannula for therapy');
+INSERT INTO EQUIPMENTS VALUES (E_ID_E_TABLE.nextval, 'Nebulizer Machine', (SELECT CATEGORY_ID FROM CATEGORIES WHERE CATEGORY_ID =20), 'Respira', 'NB-200', 2800, 3200, 'Portable nebulizer for respiratory treatment');
+
+COMMIT;
+
